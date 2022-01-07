@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="Description" content="Corey McCown is a web developer in the Greater Atlanta Area with a Bachelor's of Science in Computer Science with a minor in Mobile Application Development from the University of North Georgia.">
+        <meta name="Keywords" content="corey, mccown, corey mccown, web, developer, development, programmer, programming, application, mobile, computer, science, computer science, information, technology, information technology, it, csci, android, iphone">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Corey McCown | Greater Atlanta Area Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+        <div id="all_content">
+        <img src="images/CMD_Logo.png" id="cmd_logo_fixed" alt="Corey McCown Designs" />
+        <table class="resume">
+        <tbody>
+            <tr style="padding:0;">
+                <td colspan="2" id="resume_title"><h1><a onClick="accordian_all();">Corey McCown, M.S.</a></h1></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="resume_slogan">A technology and security tinkerer in the Greater Atlanta Area</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="slogan_subtext">Click each of the section to learn more, <a onclick="accordian_all();">or simply <strong>toggle all</strong></a></td>
+            </tr>
+            <tr>
+                <th scope="row">Objective<div id="resume_border_fixed"></div></th>
+                <td><p>My primary goal is to continue to expand my knowledge in the ever growing field of information technology.</p></td>
+            </tr>
+            <tr>
+                <th scope="row"><a onclick="accordian('experience_details');">Experience<div id="resume_border_fixed"></div></a></th>
+                <td id="experience">
+                        <h2>Information Security Analyst III<span id="heading_nonbold"> – University of North Georgia</span></h2>
+                                <h3>March 2016 - <em>Present</em></h3>
+                        <p id="experience_details">
+                                        <em>Information Security Analyst II<br />June 2017 - January 2019<br />
+                                        Information Security Analyst I<br />March 2016 - June 2017<br /><br /></em>
+                   Conduct internal vulnerability scanning and penetration testing. Provide incident response upon discovery and verification of malicious infections. Proactively analyze and monitor the University systems and networks. Coordinate with other divisions of information technology for security assessments. Assist with evaluating and reporting of new software for campus usage. Research latest trends in security for information technology. </p>
+                    <h2>I.T. Service Desk Technician I<span id="heading_nonbold"> – University of North Georgia</span></h2>
+                                <h3>August 2013 - March 2016</h3>
+                        <p id="experience_details">Developed and maintain numerous applications for use in an enterprise environment, including UNIX and web based applications. Develop and deploy Windows operating system images. Assist and work closely with a team providing tier I and tier II technical support for all campuses of the university. Removal of malicious software. Software and hardware    troubleshooting and diagnostics. </p>
+                                <h2>Freelance Development<span id="heading_nonbold"> – Corey McCown Designs</span></h2>
+                        <p id="experience_details">Developed multiple web based applications using PHP, MySQL, JQuery / JavaScript, and other web architectures. Development includes social media, ecommerce and forum communities. Designed numerous company logos and other graphic design experience. </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row"><a onclick="accordian('skills_details');">Skills<div id="resume_border_fixed"></div></a></th>
+                <td id="skills">
+                        <p>Well experienced in applying knowledge of current cybersecurity trends and vulnerabilities to mitigate risk throughout organizations. Developed a number of solutions, ranging from web to mobile platforms. 
+                            Experience with multi-tasking in a busy environment. Works well in small teams and among large groups.</p>
+                        <p id="skills_details"><strong>Security Skillset : </strong> Experience conducting internal vulnerability scanning and penetration testing. Knowledge of log aggregation and parsing in a distributed environment using data platforms such as Splunk. Incident response experience related to both security and non-security incidents. Experience in managing, configuring, and hardening Linux servers via remote solutions like Ansible. Experience in enterprise application development and support.</p>
+                        <p id="skills_details"><strong>Familiar Programming & Scripting Languages : </strong>Python, PHP, SQL, JavaScript / JQuery, Java, C++</p>
+                        <p id="skills_details"><strong>Familiar Penetration Testing & Vulnerability Management Solutions : </strong>Experienced in working with industry standard open source tools, such as nmap (including many NSE scripts), Metasploit, sqlmap, and wpscan. 
+                        Working knowledge of many commercially available tools, such as Rapid7 Nexpose and the Insight Platform, and Burp Suite.</p>
+                        <p id="skills_details"><strong>Customer Support : </strong>Excellent oral and written communication. Experience  providing customer service through telephone, email, text message, instant  messaging and social media platforms.</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row"><a onclick="accordian('education_details');">Education<div id="resume_border_fixed"></div></a></th>
+                <td id="education">
+                        <h2>Georgia Institute of Technology<span id="heading_nonbold"> – Atlanta, GA</span></h2>
+                    <h3>Master of Science in Computer Science<br /><em>Specialization in Computing Systems<br /></em></h3>
+                    <p id="education_details"><strong>Completed Courses : </strong>
+                    Introduction to Information Security, Computer Networks, Network Security, Introduction to Cyber Physical Systems Security, Software Development Processes, Software Analysis & Testing, Software Architecture & Design, Information Security Policies, Data Analytics & Security, Introduction to Graduate Algorithms<br>
+                    <p id="education_details"><strong>Overall GPA : </strong>3.60 / 4.00</p>
+                    <h2>University of North Georgia<span id="heading_nonbold"> – Dahlonega, GA</span></h2>
+                    <h3>Bachelor of Science in Computer Science<br /><em>Minor in Mobile Application Development</em></h3>
+                    <p id="education_details"><strong>Upper Level Computer Science Courses Studied : </strong>
+                    Web Programming, Mobile Application Development, Data Structures and Analysis, Programming Languages, Software Development, Software Engineering, Information Security, Management of Information Security, Intelligent Systems, Embedded Systems, Object Oriented Systems, Operating Systems and File Organization.<br>
+                    <p id="education_details"><strong>Computer Science GPA : </strong>3.75 / 4.00</p>
+                </td>
+            </tr>
+            <tr>
+            <th scope="row"><a onclick="accordian('certifications_details');">Certifications<div id="resume_border_fixed"></div></a></th>
+                <td id="certifications">
+                <h2>Penetration Tester (GPEN)<span id="heading_nonbold"> – GIAC</span></h2>
+            <h3>October 2020 </h3>
+                <p id="certifications_details">The GIAC Penetration Tester certification validates a practitioner's ability to properly conduct a penetration test, using best practice techniques and methodologies. GPEN certification holders have the knowledge
+                and skills to conduct exploits and engage in detailed reconnaissance, as well as utilize a process-oriented approach to penetration testing projects.</p>
+                        <h2>Web Application Penetration Tester (GWAPT)<span id="heading_nonbold"> – GIAC</span></h2>
+                    <h3>May 2017 </h3>
+                        <p id="certifications_details">This certification measures an individuals understanding of web application exploits and penetration testing methodology. Web applications are one of the most significant points of vulnerability in org
+anizations today. Web app holes have resulted in the theft of millions of credit cards, major financial loss, and damaged reputations for hundreds of enterprises. The number of computers compromised by visiting web sites altered by attackers is too high to
+ count. Check your web applications for holes before the bad guys do.</p>
+                    <h2>ITILv3 Foundation Certification in IT Service Management<span id="heading_nonbold"> – AXELOS</span></h2>
+                    <h3>May 2016 </h3>
+                        <p id="certifications_details">Certification ensures knowledge of key elements, concepts and terminology used in the ITIL service lifecycle, including the links between lifecycle stages, the processes used and their contribution to
+IT service management practices.<br /></p>
+                    <h2>Security+ Certified Professional<span id="heading_nonbold"> – CompTIA</span></h2>
+                    <h3>September 2016 </h3>
+                    <p id="certifications_details">Certification validates foundational, vendor-neutral IT security knowledge and skills. CompTIA Security+ certification covers network security, compliance and operation security, threats and vulnerabilitie
+s as well as application, data and host security.<br /></p>
+                    <h2>A+ Certified Technician<span id="heading_nonbold"> – CompTIA</span></h2>
+                    <h3>March 2015 </h3>
+                    <p id="certifications_details">Certification validates core understanding of hardware and software technologies in an enterprise environment and verifies the skills necessary to provide support for complete information technology infras
+tructures.</p>
+                    <p id="certifications_details">
+                    <a href="https://www.giac.org/certification/penetration-tester-gpen" target="_blank" alt="GIAC Network Penetration Tester Website" /><img src="images/gpen-gold.png" alt="GIAC GPEN Certification Badge" height="110px" ></a>
+                    <a href="https://www.giac.org/certification/web-application-penetration-tester-gwapt" target="_blank" alt="GIAC Web Application Penetration Tester Website" /><img src="images/gwapt-gold.png" alt="GIAC GWAPT Certification Badge" height="110px" ></a>
+                    <a href="https://certification.comptia.org/certifications/security" target="_blank" alt="CompTIA Security+ Certification Website" /><img src="images/comptia-secplus_badge.png" alt="CompTIA Security+ Certification Badge" height="110px"></a>
+                    <a href="https://certification.comptia.org/certifications/a" target="_blank" alt="CompTIA A+ Certification Website" /><img src="images/comptia-aplus_badge.png" alt="CompTIA A+ Certification Badge" height="110px" ></a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+            <th scope="row" style="padding-top:12px">Connect<div id="resume_border_fixed"></div></th>
+            <td>
+                <a href="https://www.linkedin.com/pub/corey-mccown/42/250/536" target="_blank" />
+                                <img src="images/Social/linkedin.png" alt="View Corey McCown's profile on LinkedIn" target="_blank" width="50px">
+                        </a>
+                <a href="https://github.com/SaltyGrandpa" target="_blank" />
+                                <img src="images/Social/Github.png" alt="View Corey McCown's profile on GitHub" target="_blank" width="50px">
+                        </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <div id="loader">
+        <img alt="Corey McCown Designs Logo" src="images/CMD_Logo-Large.png" id="loader_logo" />
+                <div class="loading_ring_css" style="transform:scale(0.5);"><div>
+    </div>
+</body>
+</html>
